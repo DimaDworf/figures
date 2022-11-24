@@ -1,0 +1,16 @@
+.svg {
+    margin-right: 20px;
+}
+
+.svg_polygon {
+    fill: rgb(0, 10, 100);
+    stroke: mediumvioletred;
+    stroke-width: 5px;
+    transition: 2s;
+}
+
+.svgs:hover .svg_polygon {
+    fill-rule: nonzero;
+    fill: rgb(0, 255, 0);
+    stroke: blue;
+}
